@@ -8,8 +8,8 @@ function createBoxes() {
     const id = `box${i}`;
     box.className = "square";
     box.id = id;
-    box.onmouseenter = () => handleHoverEnter(id);
-    box.onmouseleave = () => handleHoverLeave(id);
+    box.onmouseover = () => handleHoverEnter(id);
+    box.onmouseout = () => handleHoverLeave(id);
     container.appendChild(box);
   }
 }
