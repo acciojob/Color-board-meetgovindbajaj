@@ -23,6 +23,6 @@ function handleHoverEnter(id) {
 function handleHoverLeave(id) {
   const box = document.getElementById(id);
   setTimeout(() => {
-    box.style.backgroundColor = "rgb(36, 36, 36)";
+    box.style.backgroundColor = "rgb(29, 29, 29)";
   }, 1000);
 }
